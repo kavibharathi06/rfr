@@ -1,8 +1,14 @@
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 2bd3e82e0e062a518fe446d01561872b46701b6f
+# Load model & encoder
+
 import streamlit as st
 import numpy as np
 import joblib
 
-# Load model & encoder
 model = joblib.load("model.pkl")
 encoder = joblib.load("encoder.pkl")
 
